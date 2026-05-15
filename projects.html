@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Project Terminal — Ruvarashe Madzime</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&family=IBM+Plex+Mono:ital,wght@0,400;0,500;1,400&family=IBM+Plex+Sans:wght@400;500;600&family=Caveat:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<!-- Teal accent — terminal / tech aesthetic -->
+<body class="page-projects">
+
+  <nav class="site-nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-system" style="text-decoration:none;">R.S.M. ARCHIVE</a>
+      <span class="nav-sep">//</span>
+      <button class="nav-toggle" id="navToggle" aria-label="Open navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="about.html"><span class="cmd-slash">./</span>DOSSIER</a></li>
+        <li><a href="research.html"><span class="cmd-slash">./</span>RESEARCH</a></li>
+        <li><a href="projects.html"><span class="cmd-slash">./</span>PROJECTS</a></li>
+        <li><a href="writing.html"><span class="cmd-slash">./</span>WRITING</a></li>
+        <li><a href="travel.html"><span class="cmd-slash">./</span>TRAVEL</a></li>
+        <li><a href="now.html"><span class="cmd-slash">./</span>NOW</a></li>
+        <li><a href="contact.html"><span class="cmd-slash">./</span>CONTACT</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <div class="container section">
+
+      <div style="border-bottom:1px solid var(--A-border); padding-bottom:2rem; margin-bottom:3rem;">
+        <span class="archive-label">ARC-003 // PROJECT TERMINAL // MISSION FILES</span>
+        <h1 style="font-size:clamp(2rem,5vw,3.5rem); margin-top:0.4rem;">Projects</h1>
+        <p style="font-style:italic; color:var(--tx-muted); font-size:0.9rem; margin-top:0.5rem;">
+          Portfolio apps, research systems, and software experiments — built to demonstrate XAI concepts in production-ready deployments.
+        </p>
+      </div>
+
+      <div class="dossier-grid">
+
+        <!-- PROJECT 1 — PRIMARY (spans 2 cols) -->
+        <div class="mission-card t-panel mission-card--primary">
+          <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:0.5rem;">
+            <p class="mission-code">MISSION-001 // PRIMARY PORTFOLIO</p>
+            <span class="status-badge">BUILDING → LIVE AUG 2026</span>
+          </div>
+          <h2 class="mission-name">ECCRS Explainer App</h2>
+          <p class="mission-desc">
+            A publicly deployed XAI tool that makes the ECCRS research usable by anyone. Upload a CSV, train a symbolic classifier, receive ECCRS rules with full exception traces and SHAP visualisations — all in a browser, no code required. Designed as a live product demo for solutions engineering interviews: demonstrates the gap between black-box ML and provably auditable AI, maps directly to EU AI Act Arts. 9, 13, and 14 compliance use cases.
+          </p>
+          <div class="tech-stack">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">Streamlit</span>
+            <span class="tech-tag">Scikit-learn</span>
+            <span class="tech-tag">SHAP</span>
+            <span class="tech-tag">Streamlit Community Cloud</span>
+          </div>
+          <div class="mission-links">
+            <a href="research.html" class="btn-ghost">↗ SEE RESEARCH PAGE</a>
+          </div>
+        </div>
+
+        <!-- PROJECT 2 — EHR Summarization -->
+        <div class="mission-card t-panel">
+          <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:0.5rem;">
+            <p class="mission-code">MISSION-002</p>
+            <span class="status-badge" style="opacity:0.8;">PUBLISHED</span>
+          </div>
+          <h3 class="mission-name">EHR Text Summarisation</h3>
+          <p class="mission-desc">
+            NLP system for summarising clinical notes within Electronic Health Record systems using Large Language Models. Published at SACAIR 2024 — evaluates LLM performance on EHR summarisation tasks with attention to faithfulness and clinical relevance in low-resource African healthcare contexts.
+          </p>
+          <div class="tech-stack">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">NLP</span>
+            <span class="tech-tag">LLMs</span>
+          </div>
+          <div class="mission-links">
+            <a href="research.html" class="btn-ghost">SEE PUBLICATION →</a>
+          </div>
+        </div>
+
+        <!-- PROJECT 3 — IoT Monitoring -->
+        <div class="mission-card t-panel">
+          <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:0.5rem;">
+            <p class="mission-code">MISSION-003</p>
+            <span class="status-badge" style="opacity:0.8;">COMPLETED</span>
+          </div>
+          <h3 class="mission-name">IoT Monitoring System</h3>
+          <p class="mission-desc">
+            A Python and Arduino-based monitoring system built during an internship at Apparel Technology. Collects and visualises real-time sensor data, surfaced via a Python Dash dashboard. Practical application of IoT and data engineering skills in an industry context.
+          </p>
+          <div class="tech-stack">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">Arduino</span>
+            <span class="tech-tag">Python Dash</span>
+          </div>
+          <div class="mission-links">
+            <a href="contact.html" class="btn-ghost">CONTACT FOR DETAILS</a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <span>ARC-003 // PROJECT TERMINAL // RUVARASHE MADZIME</span>
+        <span><a href="index.html">← RETURN TO ARCHIVE</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

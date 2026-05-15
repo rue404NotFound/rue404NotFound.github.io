@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- UPDATE with real post title -->
+  <title>[PLACEHOLDER: Post Title] — Ruvarashe Madzime</title>
+  <meta name="description" content="[PLACEHOLDER: One sentence for search/social.]" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&family=IBM+Plex+Mono:ital,wght@0,400;0,500;1,400&family=IBM+Plex+Sans:wght@400;500;600&family=Caveat:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<!-- Crimson accent for writing/posts -->
+<body class="page-writing">
+
+  <!-- Thin reading progress bar — driven by script.js -->
+  <div class="reading-progress" id="reading-progress"></div>
+
+  <nav class="site-nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-system" style="text-decoration:none;">R.S.M. ARCHIVE</a>
+      <span class="nav-sep">//</span>
+      <button class="nav-toggle" id="navToggle" aria-label="Open navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="about.html"><span class="cmd-slash">./</span>DOSSIER</a></li>
+        <li><a href="research.html"><span class="cmd-slash">./</span>RESEARCH</a></li>
+        <li><a href="projects.html"><span class="cmd-slash">./</span>PROJECTS</a></li>
+        <li><a href="writing.html"><span class="cmd-slash">./</span>WRITING</a></li>
+        <li><a href="travel.html"><span class="cmd-slash">./</span>TRAVEL</a></li>
+        <li><a href="now.html"><span class="cmd-slash">./</span>NOW</a></li>
+        <li><a href="contact.html"><span class="cmd-slash">./</span>CONTACT</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Article — three-column grid for margin notes -->
+  <article class="post-layout">
+
+    <!-- POST HEADER -->
+    <header class="post-head">
+      <!-- UPDATE category -->
+      <p class="post-cat">[PLACEHOLDER: Category — e.g., AI &amp; Research]</p>
+      <!-- UPDATE title -->
+      <h1 class="post-heading">
+        [PLACEHOLDER: Post Title — make it compelling]
+      </h1>
+      <!-- UPDATE byline -->
+      <p class="post-byline">
+        Ruvarashe Madzime &nbsp;·&nbsp;
+        [PLACEHOLDER: Date — e.g., May 14, 2026] &nbsp;·&nbsp;
+        [PLACEHOLDER: e.g., 8 min read]
+      </p>
+    </header>
+
+    <!--
+      HOW TO USE MARGIN NOTES:
+      Place a <div class="margin-note"> BEFORE the paragraph it annotates.
+      On desktop it floats into the left gutter. Hidden on mobile.
+
+        <div class="margin-note">Annotation text here.</div>
+        <p>The paragraph being annotated...</p>
+    -->
+
+    <!-- POST BODY -->
+    <div class="post-body">
+
+      <!--
+        The first <p> gets a CSS drop cap automatically.
+        Start with your strongest opening sentence.
+      -->
+      <p>
+        [PLACEHOLDER: Opening paragraph — gets a drop cap. Start with your most compelling sentence.]
+      </p>
+
+      <p>
+        [PLACEHOLDER: Second paragraph — expand the opening and set up your argument.]
+      </p>
+
+      <!-- PULL QUOTE — use sparingly, for your single strongest claim -->
+      <blockquote class="pull-quote">
+        [PLACEHOLDER: Pull quote — one strong sentence from this post.]
+      </blockquote>
+
+      <p>
+        [PLACEHOLDER: Continue the argument. Add as many paragraphs as needed.]
+      </p>
+
+      <!--
+        MARGIN NOTE EXAMPLE — uncomment to use:
+        <div class="margin-note">A note in the margin about the next paragraph.</div>
+      -->
+      <p>
+        [PLACEHOLDER: Body paragraph. Can have a margin note before it.]
+      </p>
+
+      <!-- SUBHEADING -->
+      <h2 style="font-size:1.4rem; margin:2.5rem 0 0.8rem; color:var(--tx);">
+        [PLACEHOLDER: Section Subheading]
+      </h2>
+
+      <p>
+        [PLACEHOLDER: Section body text...]
+      </p>
+
+      <p>
+        [PLACEHOLDER: Closing paragraph — restate your main idea or leave the reader with an open question.]
+      </p>
+
+    </div><!-- /.post-body -->
+
+    <!-- BACK LINK -->
+    <div style="margin-top:3rem; padding-top:2rem; border-top:1px solid var(--A-border);">
+      <a href="writing.html" class="btn-ghost">← RETURN TO WRITING DESK</a>
+    </div>
+
+  </article>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <span>Ruvarashe Madzime · 2026</span>
+        <span>
+          <a href="writing.html">WRITING</a> &nbsp;·&nbsp;
+          <a href="index.html">ARCHIVE</a>
+        </span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
