@@ -1,289 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ruvarashe Madzime — Personal Archive</title>
-  <meta name="description" content="MSc Computer Science researcher at UWC and CAIR. Working on defeasible semantics for symbolic classifiers and interpretable machine learning." />
-
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323:wght@400&family=Share+Tech+Mono&display=swap" rel="stylesheet" />
-
-  <link rel="stylesheet" href="style.css" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ruvarashe Madzime</title>
+<meta name="description" content="Ruvarashe Madzime, MSc Computer Science candidate at the University of the Western Cape. Machine learning and formal reasoning.">
+<link rel="stylesheet" href="style.css">
 </head>
-<body class="page-home">
+<body>
+<main>
+  <img class="portrait" src="assets/portrait.jpg" alt="Ruvarashe Madzime">
+  <h1>Ruvarashe Madzime</h1>
 
-  <nav class="site-nav" role="navigation">
-    <div class="nav-inner">
-      <span class="nav-system">R.S.M. ARCHIVE</span>
-      <span class="nav-sep">//</span>
+  <h2>information</h2>
+  <p class="info">
+    4158028 [at] myuwc.ac.za<br>
+    <a href="https://github.com/rue404NotFound">github</a>
+    <a href="https://www.linkedin.com/in/ruvarashe-madzime">linkedin</a>
+    <a href="assets/CV.pdf">cv</a>
+  </p>
 
-      <button class="nav-toggle" id="navToggle" aria-label="Open navigation" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
+  <p>
+    I am an MSc Computer Science candidate at the University of the Western Cape, supervised by <a href="https://tommiemeyer.org.za/">Thomas Meyer</a> and <a href="https://cs.uwc.ac.za/prof-louise-leenen/">Louise Leenen</a>. I work in formal non-monotonic reasoning: logic that draws sensible default conclusions and then revises them when a more specific case overrides the default. My thesis builds on the KLM framework, a standard mathematical account of how that revision should behave, and uses it to give learned rule sets a proper logical reading. The explanation lives in the rules themselves, not in a story fitted around a black box after the fact.
+  </p>
 
-      <ul class="nav-links" id="navLinks">
-        <li><a href="about.html"><span class="cmd-slash">./</span>DOSSIER</a></li>
-        <li><a href="research.html"><span class="cmd-slash">./</span>RESEARCH</a></li>
-        <li><a href="projects.html"><span class="cmd-slash">./</span>PROJECTS</a></li>
-        <li><a href="travel.html"><span class="cmd-slash">./</span>TRAVEL</a></li>
-        <li><a href="now.html"><span class="cmd-slash">./</span>NOW</a></li>
-        <li><a href="contact.html"><span class="cmd-slash">./</span>CONTACT</a></li>
-      </ul>
-    </div>
-  </nav>
+  <p>
+    Moving onto a PhD in neurosymbolic AI, I want to focus on the inner workings rather than post-hoc explanations: how logical structure can be embedded into a neural network during training, and how a network might learn its own symbolic representations directly from data.
+  </p>
 
+  <h2>education</h2>
+  <div class="edu">
+    <p>MSc Computer Science<br>University of the Western Cape<br><span class="dim">submitting 2026</span></p>
+    <p>BSc (Hons) Computer Science, cum laude<br>University of the Western Cape<br><span class="dim">2024</span></p>
+    <p>BSc Computer Science, cum laude<br>University of the Western Cape<br><span class="dim">2023</span></p>
+  </div>
 
-  <header class="masthead">
-    <div class="container">
-      <div class="masthead-inner">
-
-        <div class="masthead-text">
-          <div class="boot-log" id="bootLog" aria-hidden="true">
-            <p class="boot-line" id="bl-0">
-              <span class="prompt">SYS</span>
-              <span>ARCHIVE SYSTEM v1.0 · INITIALIZED · WELCOME</span>
-            </p>
-            <p class="boot-line" id="bl-1">
-              <span class="prompt">USR</span>
-              <span>IDENTITY: RUVARASHE SHALOM MADZIME · XAI RESEARCHER · UWC + CAIR</span>
-            </p>
-            <p class="boot-line" id="bl-2">
-              <span class="prompt">MOD</span>
-              <span>MODULES: RESEARCH · PROJECTS · TRAVEL · CONTACT</span>
-            </p>
-            <p class="boot-line" id="bl-3">
-              <span class="prompt">STA</span>
-              <span>3 PUBLICATIONS · MSc THESIS IN PROGRESS</span>
-            </p>
-          </div>
-
-          <h1 class="masthead-name">
-            Ruvarashe<br>Shalom Madzime<span class="blink-cursor"></span>
-          </h1>
-
-          <p class="masthead-tagline">
-            AI researcher making ML models actually explain themselves. Published. Building provable transparency tools grounded in formal logic and clear human reasoning.
-          </p>
-
-          <div class="masthead-meta">
-            <span class="masthead-meta-item">LOCATION: Cape Town, South Africa</span>
-            <span class="masthead-meta-item">STATUS: MSc Candidate · ETA Nov 2026</span>
-            <span class="masthead-meta-item">AVAILABLE: FROM AUG 2026</span>
-          </div>
-
-          <div class="masthead-actions">
-            <a href="Ruvarashe-Madzime-CV.pdf" class="btn-terminal" download>↓ DOWNLOAD CV</a>
-            <a href="about.html" class="btn-ghost">OPEN DOSSIER →</a>
-          </div>
-        </div>
-
-        <div class="masthead-photo-wrap">
-          <div class="masthead-photo-frame">
-            <img src="profile.jpeg" alt="Ruvarashe Madzime" />
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </header>
-
-
-  <section class="section section--sm">
-    <div class="container">
-
-      <div style="display:flex; justify-content:space-between; align-items:baseline; margin-bottom:1.2rem; flex-wrap:wrap; gap:0.8rem;">
-        <span class="archive-label">// SELECT DESTINATION //</span>
-        <span class="mono" style="color:var(--tx-dim);">6 AREAS ACCESSIBLE</span>
-      </div>
-
-      <div class="hub-grid">
-
-        <!-- RESEARCH — 2 cols -->
-        <a href="research.html" class="hub-panel t-panel hub-panel--research">
-          <div class="panel-header">
-            <span class="archive-id">ARC-002</span>
-            <span class="panel-status">OPEN</span>
-          </div>
-          <span class="panel-category">Research Archive</span>
-          <h2 class="hub-panel-title">
-            Defeasible Semantics for Symbolic Classifiers
-          </h2>
-          <p class="hub-panel-desc">
-            My MSc thesis answers a big question: when can a trained AI classifier be read as a logical proof? Publications, themes, and notes inside.
-          </p>
-          <div class="hub-panel-footer">
-            <div class="hub-panel-tags">
-              <span class="hub-tag">ECCRS</span>
-              <span class="hub-tag">KLM</span>
-              <span class="hub-tag">SACAIR 2025</span>
-            </div>
-            <span class="hub-enter">ENTER →</span>
-          </div>
-        </a>
-
-        <!-- ABOUT -->
-        <a href="about.html" class="hub-panel t-panel hub-panel--about">
-          <div class="panel-header">
-            <span class="archive-id">ARC-001</span>
-            <span class="panel-status">OPEN</span>
-          </div>
-          <span class="panel-category">Personal Dossier</span>
-          <h2 class="hub-panel-title">About</h2>
-          <p class="hub-panel-desc">
-            Background, education, skills inventory, and current status.
-          </p>
-          <div class="hub-panel-footer">
-            <div class="hub-panel-tags">
-              <span class="hub-tag">BIO</span>
-              <span class="hub-tag">SKILLS</span>
-            </div>
-            <span class="hub-enter">OPEN →</span>
-          </div>
-        </a>
-
-        <!-- PROJECTS -->
-        <a href="projects.html" class="hub-panel t-panel hub-panel--projects">
-          <div class="panel-header">
-            <span class="archive-id">ARC-003</span>
-            <span class="panel-status">ACTIVE</span>
-          </div>
-          <span class="panel-category">Project Terminal</span>
-          <h2 class="hub-panel-title">Built Work</h2>
-          <p class="hub-panel-desc">
-            Research systems, thesis tooling, and software experiments.
-          </p>
-          <div class="hub-panel-footer">
-            <div class="hub-panel-tags">
-              <span class="hub-tag">PYTHON</span>
-              <span class="hub-tag">AI</span>
-            </div>
-            <span class="hub-enter">ACCESS →</span>
-          </div>
-        </a>
-
-        <!-- TRAVEL -->
-        <a href="travel.html" class="hub-panel t-panel hub-panel--travel">
-          <div class="panel-header">
-            <span class="archive-id">ARC-005</span>
-            <span class="panel-status">OPEN</span>
-          </div>
-          <span class="panel-category">Travel Logs</span>
-          <h2 class="hub-panel-title">Field Notes</h2>
-          <p class="hub-panel-desc">
-            Stamped passport records, exploration journals, brief dispatches.
-          </p>
-          <div class="hub-panel-footer">
-            <div class="hub-panel-tags">
-              <span class="hub-tag">PRAGUE</span>
-              <span class="hub-tag">CAPETOWN</span>
-            </div>
-            <span class="hub-enter">EXPLORE →</span>
-          </div>
-        </a>
-
-        <!-- NOW — 2 cols -->
-        <a href="now.html" class="hub-panel t-panel hub-panel--now">
-          <div class="panel-header">
-            <span class="archive-id">ARC-006</span>
-            <span class="panel-status">LIVE — MAY 2026</span>
-          </div>
-          <span class="panel-category">Current Signals</span>
-          <h2 class="hub-panel-title">Active Quest Log — What I'm Up To Right Now</h2>
-          <p class="hub-panel-desc">
-            What I'm reading, building, and overthinking. Updated regularly.
-          </p>
-          <div class="hub-panel-footer">
-            <div class="hub-panel-tags">
-              <span class="hub-tag">LIVE</span>
-              <span class="hub-tag">UPDATED</span>
-            </div>
-            <span class="hub-enter">CHECK IN →</span>
-          </div>
-        </a>
-
-        <!-- CONTACT -->
-        <a href="contact.html" class="hub-panel t-panel hub-panel--contact">
-          <div class="panel-header">
-            <span class="archive-id">ARC-007</span>
-            <span class="panel-status">OPEN</span>
-          </div>
-          <span class="panel-category">Contact Channel</span>
-          <h2 class="hub-panel-title">Transmission</h2>
-          <p class="hub-panel-desc">
-            Email, LinkedIn, GitHub, and a direct line for future opportunities.
-          </p>
-          <div class="hub-panel-footer">
-            <div class="hub-panel-tags">
-              <span class="hub-tag">EMAIL</span>
-              <span class="hub-tag">LINKEDIN</span>
-            </div>
-            <span class="hub-enter">CONNECT →</span>
-          </div>
-        </a>
-
-      </div>
-    </div>
-  </section>
-
-
-  <!-- Current status strip — update this regularly -->
-  <section class="section--sm">
-    <div class="container">
-
-      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.8rem;">
-        <span class="archive-label">// CURRENT STATUS //</span>
-        <span class="mono" style="color:var(--tx-dim);">UPDATED: MAY 2026</span>
-      </div>
-
-      <div class="status-strip">
-
-        <div class="status-cell">
-          <p class="status-cell-label">Researching</p>
-          <div class="status-cell-content">
-            <strong>Defeasible semantics for ECCRS classifiers</strong>
-            When does a trained AI model double as a logical proof? Proving the exact conditions.
-          </div>
-        </div>
-
-        <div class="status-cell">
-          <p class="status-cell-label">Building</p>
-          <div class="status-cell-content">
-            <strong>ECCRS Explainer App</strong>
-            Upload a CSV, get explainable AI rules + visuals. No code needed. Target deploy: Aug 2026.
-          </div>
-        </div>
-
-        <div class="status-cell">
-          <p class="status-cell-label">Writing</p>
-          <div class="status-cell-content">
-            <strong>MSc Thesis · UWC + CAIR</strong>
-            <em>Toward a Defeasible Semantics for Symbolic Classifiers</em>. ETA Nov 2026.
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-
-  <footer class="site-footer">
-    <div class="container">
-      <div class="footer-inner">
-        <span>ARCHIVE · RUVARASHE MADZIME · &copy; 2026</span>
-        <span>
-          <a href="https://github.com/rue404NotFound" target="_blank">GITHUB</a>
-          &nbsp;·&nbsp;
-          <a href="https://www.linkedin.com/in/ruvarashe-madzime" target="_blank">LINKEDIN</a>
-          &nbsp;·&nbsp;
-          <a href="contact.html">CONTACT</a>
-        </span>
-        <span>STATIC HTML · NO FRAMEWORK · GITHUB PAGES</span>
-      </div>
-    </div>
-  </footer>
-
-  <script src="script.js"></script>
+  <h2>research</h2>
+  <div class="pubs">
+    <p><span class="year">2026</span><br>Toward Defeasible Machine Learning: When Learned Rule Sets Become Defeasible Theories<br><span class="dim">24th International Workshop on Nonmonotonic Reasoning (NMR 2026), Federated Logic Conference (FLoC), Lisbon, Portugal</span></p>
+    <p><span class="year">2026</span><br>First Steps Towards Human-AI Ranking Aggregation<br><span class="dim">Joint Workshop on Statistics and Knowledge Integration for Logic, Learning, Ethical Decisions, and LLMs (SKILLED-LLMs 2026), Federated Logic Conference (FLoC), Lisbon, Portugal</span></p>
+    <p><span class="year">2025</span><br>An Override-Aware Classifier for Transparent AI<br><span class="dim">6th Southern African Conference on Artificial Intelligence Research (SACAIR 2025), Cape Town, South Africa</span></p>
+    <p><span class="year">2024</span><br>Enhanced Electronic Health Record Text Summarisation Using Large Language Models<br><span class="dim">5th Southern African Conference on Artificial Intelligence Research (SACAIR 2024), Bloemfontein, South Africa</span></p>
+  </div>
+</main>
 </body>
 </html>
