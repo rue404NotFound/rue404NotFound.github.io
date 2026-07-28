@@ -3,7 +3,7 @@
   --text: #1a1a1a;
   --dim: #6b6b6b;
   --accent: #2f5033;
-  --serif: "Iowan Old Style", "Charter", "Palatino Linotype", Palatino, Georgia, serif;
+  --serif: Calibri, "Segoe UI", "Helvetica Neue", -apple-system, Arial, sans-serif;
 }
 
 *, *::before, *::after { box-sizing: border-box; }
