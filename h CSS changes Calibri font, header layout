@@ -1,0 +1,27 @@
+[33mcommit 1dabf8ec50c59aa47c7acd3cf48493b1d21061d7[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Ruvarashe Madzime <madzimeruvarashe@gmail.com>
+Date:   Thu Jul 30 20:44:09 2026 +0200
+
+    photo aligned with name and contact
+
+ index.html | 24 [32m+++++++++++++[m[31m-----------[m
+ style.css  | 32 [32m+++++++++++++++++++++++++++[m[31m-----[m
+ 2 files changed, 40 insertions(+), 16 deletions(-)
+
+[33mcommit 77ba7e3b72815cb39de2d5fd300d5ada5a874483[m
+Author: Ruvarashe Madzime <madzimeruvarashe@gmail.com>
+Date:   Thu Jul 30 20:41:28 2026 +0200
+
+    CAIR affiliation
+
+ index.html | 2 [32m+[m[31m-[m
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+[33mcommit de9e80758945ac180038564cc7eb0558b93586c6[m
+Author: Ruvarashe Madzime <madzimeruvarashe@gmail.com>
+Date:   Thu Jul 30 20:38:35 2026 +0200
+
+    Contact + about headers; clickable paper titles; supervisor affiliations; CAIR
+
+ index.html | 2 [32m+[m[31m-[m
+ 1 file changed, 1 insertion(+), 1 deletion(-)
