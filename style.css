@@ -67,7 +67,9 @@ h2 {
   font-style: italic;
   font-size: 1.05rem;
   color: var(--dim);
-  margin: 2.25rem 0 0.6rem;
+  margin: 2.5rem 0 0.9rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 }
 
 p {
@@ -85,6 +87,7 @@ a:hover, a:focus { border-bottom-color: var(--accent); }
 a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 2px; }
 
 .info a { margin-right: 0.4rem; }
+.info a.cv-link { font-weight: 600; }
 
 .dim {
   color: var(--dim);
